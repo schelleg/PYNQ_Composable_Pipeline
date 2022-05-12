@@ -1,7 +1,5 @@
 # Edge Detect Demo
-
-![image](https://user-images.githubusercontent.com/12449034/167978921-d448d1ba-6a40-4acc-975d-c72a533b717b.png)
-
+![image](https://user-images.githubusercontent.com/12449034/167979649-3771af77-4968-4046-abc2-480118da12c5.png)
 
 ### Buy Hardware
 
@@ -33,14 +31,21 @@ cd PYNQ_Composable_Pipeline
 python -m pip install --upgrade . --no-build-isolation
 
 ```
-
+### on laptop
+- open local copy of mountain.mp4
+- open Camera app, open reverse-view camera
+- 
 ### From browser on host (Chrome is best)
 - browse to <Kria's IP address>/lab
-- copy over mountain.mp4
-- copy over edgedetection.ipynb
+- within Jupyter portal, navigate into pynq_composable folder
+- copy over mountain.mp4 using drag/drop of local copy of that file
 - open edgedetection.ipynb
 - run all cells
 - uncomment the last cell to stop the app
+
+### on laptop
+- play mountain.mp4 to show users input video
+- display the notebook, local mp4, output edge detection camera view
 
 
 ------------
