@@ -1,5 +1,19 @@
 # Edge Detect Demo
 
+![image](https://user-images.githubusercontent.com/12449034/167978921-d448d1ba-6a40-4acc-975d-c72a533b717b.png)
+
+
+### Buy Hardware
+
+1. HDMI dongle (tested using HDMI2HDMI cable
+<img src="https://user-images.githubusercontent.com/12449034/167978563-e8208554-da00-4c16-bce6-283acd17b2cf.png" width="300">
+https://www.amazon.com/gp/product/B08L19KCFJ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+
+2. Router
+<img src="https://user-images.githubusercontent.com/12449034/167979407-0e7d32a4-9796-46b9-b345-aba49a0d2077.png" width="300">
+
+https://www.amazon.com/GL-iNet-GL-AR750-300Mbps-pre-Installed-Included/dp/B07712LKJM/ref=sr_1_14?crid=24L4M3V58CDCD&keywords=glinet+router&qid=1652322031&s=electronics&sprefix=glinet+route%2Celectronics%2C211&sr=1-14
+
 ### Run on the Kria-SoM clean 20.04 image
 
 ```bash 
