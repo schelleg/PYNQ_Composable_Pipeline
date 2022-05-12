@@ -38,7 +38,7 @@ python -m pip install --upgrade . --no-build-isolation
 ### From browser on host (Chrome is best)
 - browse to <Kria's IP address>/lab
 - within Jupyter portal, navigate into pynq_composable folder
-- copy over mountain.mp4 using drag/drop of local copy of that file
+- copy over [mountain.mp4](https://github.com/schelleg/PYNQ_Composable_Pipeline/releases/download/v1.0.0/mountains.mp4) using drag/drop of local copy of that file
 - open edgedetection.ipynb
 - run all cells
 - uncomment the last cell to stop the app
