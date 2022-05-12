@@ -1,3 +1,37 @@
+# Edge Detect Demo
+
+### Run on the Kria-SoM clean 20.04 image
+
+```bash 
+# Install xlnx-config AND PYNQ
+
+sudo snap install xlnx-config --classic
+xlnx-config.sysinit
+git clone https://github.com/Xilinx/Kria-PYNQ.git
+pushd Kria-PYNQ
+bash ./install.sh
+	# see the IP address and remember it
+popd
+
+source /etc/profile.d/pynq_venv.sh
+git clone https://github.com/schelleg/PYNQ_Composable_Pipeline.git -b edgedetect
+cd PYNQ_Composable_Pipeline
+python -m pip install --upgrade . --no-build-isolation
+
+```
+
+### From browser on host (Chrome is best)
+- browse to <Kria's IP address>/lab
+- copy over mountain.mp4
+- copy over edgedetection.ipynb
+- open edgedetection.ipynb
+- run all cells
+- uncomment the last cell to stop the app
+
+
+------------
+# Original README below
+
 ![license](https://img.shields.io/github/license/Xilinx/PYNQ_Composable_Pipeline?color=g) ![python](https://github.com/Xilinx/PYNQ_Composable_Pipeline/workflows/Python/badge.svg) [![docs](https://readthedocs.org/projects/pynq-composable/badge/?version=latest)](https://pynq-composable.readthedocs.io/en/latest/?badge=latest)
 
 
